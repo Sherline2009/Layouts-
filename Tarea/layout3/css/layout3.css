@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#e6e6e6;
+    text-align:center;
+}
+ 
+h1{
+    margin:30px;
+}
+ 
+.container{
+    width:700px;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 80px 200px 80px;
+ 
+    gap:8px;
+}
+ 
+.container div{
+    background:#d3d3d3;
+    border:2px solid #888;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+}
+ 
+ 
+.header{
+    grid-column:1/4;
+}
+ 
+.footer{
+    grid-column:1/4;
+}
+ 
