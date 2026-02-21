@@ -1,4 +1,4 @@
-/* Reset */
+
 *{
     margin:0;
     padding:0;
@@ -6,7 +6,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Fondo bonito degradado */
 body{
     height:100vh;
     display:flex;
@@ -15,7 +14,6 @@ body{
     background: linear-gradient(135deg, #ff9a9e, #fad0c4, #a18cd1);
 }
 
-/* Contenedor del menú */
 nav{
     background: rgba(255,255,255,0.15);
     padding:50px;
@@ -24,7 +22,6 @@ nav{
     box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
-/* Estilo general de botones */
 .btn-link{
     text-decoration:none;
     padding:15px 30px;
@@ -36,7 +33,6 @@ nav{
     color:white;
 }
 
-/* Colores diferentes */
 .variant-1{
     background:#ff6f91;
 }
